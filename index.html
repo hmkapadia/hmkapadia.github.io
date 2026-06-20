@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hitesh Kapadia | Portfolio - Managed Services & Techno-Functional IT Leader</title>
+    
+    <!-- Innovative, CDN-free matching inline SVG Favicon (Gradient background with "HK" initials) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjM2I4MmY2Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYTg1NWY3Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iOSIgZmlsbD0idXJsKCNnKSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTUlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iI2ZmZmZmZiIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9InN5c3RlbS11aSwgc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9IjAuMDVlbSI+SEs8L3RleHQ+PC9zdmc+">
+
     <!-- Embedded high-performance, responsive CSS style sheet to eliminate external CDN dependencies -->
     <style>
         /* --- RESET & DESIGN TOKENS --- */
@@ -1432,116 +1436,6 @@
         </div>
     </section>
 
-    <!-- INTERACTIVE ACCELERATED DELIVERY SIMULATOR -->
-    <section id="simulator" class="section-padding" style="background-color: #0a0f19">
-        <div class="container">
-            <div class="simulator-box">
-                <div class="simulator-title-container">
-                    <span class="section-tag" style="background-color: rgba(168, 85, 247, 0.1); color: var(--vibe)">Interactive Utility</span>
-                    <h2 style="font-size: 2.25rem; font-weight: 800; margin-top: 1rem;">Accelerated Delivery Simulator</h2>
-                    <p style="font-size: 0.875rem; color: #9ca3af; margin-top: 0.5rem;">See how traditional offshore project execution compares with Hitesh's AI-enabled "Vibe Coding" &amp; Agile Managed Service delivery models.</p>
-                </div>
-
-                <div class="grid md-grid-2 items-stretch">
-                    <!-- Configurator Block -->
-                    <div class="simulator-config">
-                        <div>
-                            <h3 style="font-size: 0.875rem; font-weight: 700; text-transform: uppercase; margin-bottom: 1.5rem; letter-spacing: 0.05em; display: flex; align-items: center; gap: 0.5rem;">
-                                <!-- Sliders Tool SVG -->
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="var(--primary)" width="18" height="18">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
-                                </svg>
-                                Configure Project
-                            </h3>
-                            
-                            <div class="form-group">
-                                <label>Target Core Domain</label>
-                                <select id="sim-domain" class="form-select">
-                                    <option value="healthcare" data-complexity="1.5">Healthcare IT Integrations (HL7 FHIR / EHR)</option>
-                                    <option value="security" data-complexity="1.3">Security Portal & Authentication</option>
-                                    <option value="logistics" data-complexity="1.1">Logistics / Cargo Routing platform</option>
-                                    <option value="financial" data-complexity="1.2">Financial Medical Billing Systems</option>
-                                </select>
-                            </div>
-
-                            <div class="form-group">
-                                <label>Estimated Traditional Scope</label>
-                                <div class="range-container">
-                                    <input type="range" id="sim-scope" min="4" max="24" value="10" class="form-range">
-                                    <span id="sim-scope-val" class="range-val">10 Sprints</span>
-                                </div>
-                            </div>
-
-                            <div class="form-group" style="margin-bottom: 0;">
-                                <label>Delivery Methodology</label>
-                                <div class="toggle-grid">
-                                    <button id="btn-trad" onclick="setMethod('traditional')" class="toggle-btn">
-                                        <!-- Multi-user Team SVG -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="14" height="14">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.115c0 .03-.002.06-.005.09a11.955 11.955 0 01-2.998 1.205m-9-.115l.001-.031a12 12 0 013.436-1.072M12 18.75a6.002 6.002 0 00-3.536-5.462m4.121 1.205A9.77 9.77 0 0012 14.25c-.416 0-.827.025-1.231.075m1.231-.075a11.97 11.97 0 013.436 1.072M12 18.75a6.002 6.002 0 01-3.536-5.462M12 18.75v.003c0 .24-.011.478-.032.713m0 0A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m0 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94-3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
-                                        </svg>
-                                        Traditional
-                                    </button>
-                                    <button id="btn-vibe" onclick="setMethod('vibecoding')" class="toggle-btn">
-                                        <!-- Lightning Spark SVG -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="14" height="14">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
-                                        </svg>
-                                        Vibe Accelerated
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Output Forecast Card -->
-                    <div class="forecast-card">
-                        <div>
-                            <h3 style="font-size: 0.875rem; font-weight: 700; text-transform: uppercase; margin-bottom: 1.5rem; letter-spacing: 0.05em; display: flex; align-items: center; gap: 0.5rem;">
-                                <!-- Reporting Panel SVG -->
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="var(--accent)" width="18" height="18">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-1.1-.9-2-2-2M9 12.75h.008v.008H9v-.008zm0 3h.008v.008H9v-.008zM12 21H3.75A1.875 1.875 0 011.875 19.125V4.875C1.875 3.839 2.714 3 3.75 3H12M12 21h8.25c1.036 0 1.875-.84 1.875-1.875V8.25M12 21V11.25M12 4.875V3H12" />
-                                </svg>
-                                Delivery Forecast
-                            </h3>
-                            
-                            <div class="forecast-metric">
-                                <span class="forecast-label">Total Est. Timeline Duration</span>
-                                <span id="out-duration" class="forecast-val">2.5 Months</span>
-                                <span style="font-size: 0.75rem; color: #6b7280; display: block; margin-top: 0.25rem;">Fast-tracked sprints utilizing modern prototyping</span>
-                            </div>
-
-                            <div class="forecast-metric">
-                                <span class="forecast-label">Execution Risk Level</span>
-                                <div class="risk-indicator">
-                                    <span id="out-risk-bar" class="risk-bar" style="width: 48px; background-color: var(--accent)"></span>
-                                    <span id="out-risk" class="risk-text" style="color: var(--accent)">Very Low</span>
-                                </div>
-                            </div>
-
-                            <div class="strategic-info">
-                                <h4 style="font-size: 0.75rem; font-weight: 700; margin-bottom: 0.25rem; display: flex; align-items: center; gap: 0.25rem;">
-                                    <!-- Info Circular Tag SVG -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="var(--primary)" width="14" height="14">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 111.063.852l-.708 2.836a.75.75 0 001.063.852l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
-                                    </svg>
-                                    Strategic Impact
-                                </h4>
-                                <p id="out-strategy-txt" style="font-size: 0.75rem; color: #9ca3af; line-height: 1.5;">
-                                    Continuous integration and instant schema mockups remove traditional wait times.
-                                </p>
-                            </div>
-                        </div>
-
-                        <button onclick="requestDetails()" class="btn-apply">
-                            Apply Blueprint To My Stack
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- PROFESSIONAL MILESTONES & HISTORY -->
     <section id="experience" class="section-padding" style="background-color: rgba(9, 13, 22, 0.5)">
         <div class="container" style="max-width: 900px;">
@@ -1765,13 +1659,13 @@
                         <ul class="cert-list" style="border: none; padding-top: 0; margin-bottom: 1.5rem">
                             <li class="cert-list-item" style="margin-bottom: 0.5rem">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="var(--primary)" width="14" height="14">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1a3.75 3.75 0 0012 18z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
                                 </svg>
                                 Azure AI Fundamentals (AI-900)
                             </li>
                             <li class="cert-list-item" style="margin-bottom: 0">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="var(--primary)" width="14" height="14">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1a3.75 3.75 0 0012 18z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
                                 </svg>
                                 Data Scientist Master's (ML &amp; AI)
                             </li>
@@ -1806,6 +1700,116 @@
                     <span>2001 - 2005</span>
                     <h3>Bachelor of Engineering (B.E.) in Information Technology</h3>
                     <p>Dharmsinh Desai University, Nadiad, Gujarat</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RELOCATED: INTERACTIVE ACCELERATED DELIVERY SIMULATOR -->
+    <section id="simulator" class="section-padding" style="background-color: #0a0f19">
+        <div class="container">
+            <div class="simulator-box">
+                <div class="simulator-title-container">
+                    <span class="section-tag" style="background-color: rgba(168, 85, 247, 0.1); color: var(--vibe)">Interactive Utility</span>
+                    <h2 style="font-size: 2.25rem; font-weight: 800; margin-top: 1rem;">Accelerated Delivery Simulator</h2>
+                    <p style="font-size: 0.875rem; color: #9ca3af; margin-top: 0.5rem;">See how traditional offshore project execution compares with Hitesh's AI-enabled "Vibe Coding" &amp; Agile Managed Service delivery models.</p>
+                </div>
+
+                <div class="grid md-grid-2 items-stretch">
+                    <!-- Configurator Block -->
+                    <div class="simulator-config">
+                        <div>
+                            <h3 style="font-size: 0.875rem; font-weight: 700; text-transform: uppercase; margin-bottom: 1.5rem; letter-spacing: 0.05em; display: flex; align-items: center; gap: 0.5rem;">
+                                <!-- Sliders Tool SVG -->
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="var(--primary)" width="18" height="18">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
+                                </svg>
+                                Configure Project
+                            </h3>
+                            
+                            <div class="form-group">
+                                <label>Target Core Domain</label>
+                                <select id="sim-domain" class="form-select">
+                                    <option value="healthcare" data-complexity="1.5">Healthcare IT Integrations (HL7 FHIR / EHR)</option>
+                                    <option value="security" data-complexity="1.3">Security Portal & Authentication</option>
+                                    <option value="logistics" data-complexity="1.1">Logistics / Cargo Routing platform</option>
+                                    <option value="financial" data-complexity="1.2">Financial Medical Billing Systems</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Estimated Traditional Scope</label>
+                                <div class="range-container">
+                                    <input type="range" id="sim-scope" min="4" max="24" value="10" class="form-range">
+                                    <span id="sim-scope-val" class="range-val">10 Sprints</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label>Delivery Methodology</label>
+                                <div class="toggle-grid">
+                                    <button id="btn-trad" onclick="setMethod('traditional')" class="toggle-btn">
+                                        <!-- Multi-user Team SVG -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="14" height="14">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.115c0 .03-.002.06-.005.09a11.955 11.955 0 01-2.998 1.205m-9-.115l.001-.031a12 12 0 013.436-1.072M12 18.75a6.002 6.002 0 00-3.536-5.462m4.121 1.205A9.77 9.77 0 0012 14.25c-.416 0-.827.025-1.231.075m1.231-.075a11.97 11.97 0 013.436 1.072M12 18.75a6.002 6.002 0 01-3.536-5.462M12 18.75v.003c0 .24-.011.478-.032.713m0 0A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m0 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94-3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                                        </svg>
+                                        Traditional
+                                    </button>
+                                    <button id="btn-vibe" onclick="setMethod('vibecoding')" class="toggle-btn">
+                                        <!-- Lightning Spark SVG -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="14" height="14">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                                        </svg>
+                                        Vibe Accelerated
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Output Forecast Card -->
+                    <div class="forecast-card">
+                        <div>
+                            <h3 style="font-size: 0.875rem; font-weight: 700; text-transform: uppercase; margin-bottom: 1.5rem; letter-spacing: 0.05em; display: flex; align-items: center; gap: 0.5rem;">
+                                <!-- Reporting Panel SVG -->
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="var(--accent)" width="18" height="18">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-1.1-.9-2-2-2M9 12.75h.008v.008H9v-.008zm0 3h.008v.008H9v-.008zM12 21H3.75A1.875 1.875 0 011.875 19.125V4.875C1.875 3.839 2.714 3 3.75 3H12M12 21h8.25c1.036 0 1.875-.84 1.875-1.875V8.25M12 21V11.25M12 4.875V3H12" />
+                                </svg>
+                                Delivery Forecast
+                            </h3>
+                            
+                            <div class="forecast-metric">
+                                <span class="forecast-label">Total Est. Timeline Duration</span>
+                                <span id="out-duration" class="forecast-val">2.5 Months</span>
+                                <span style="font-size: 0.75rem; color: #6b7280; display: block; margin-top: 0.25rem;">Fast-tracked sprints utilizing modern prototyping</span>
+                            </div>
+
+                            <div class="forecast-metric">
+                                <span class="forecast-label">Execution Risk Level</span>
+                                <div class="risk-indicator">
+                                    <span id="out-risk-bar" class="risk-bar" style="width: 48px; background-color: var(--accent)"></span>
+                                    <span id="out-risk" class="risk-text" style="color: var(--accent)">Very Low</span>
+                                </div>
+                            </div>
+
+                            <div class="strategic-info">
+                                <h4 style="font-size: 0.75rem; font-weight: 700; margin-bottom: 0.25rem; display: flex; align-items: center; gap: 0.25rem;">
+                                    <!-- Info Circular Tag SVG -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="var(--primary)" width="14" height="14">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 111.063.852l-.708 2.836a.75.75 0 001.063.852l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                                    </svg>
+                                    Strategic Impact
+                                </h4>
+                                <p id="out-strategy-txt" style="font-size: 0.75rem; color: #9ca3af; line-height: 1.5;">
+                                    Continuous integration and instant schema mockups remove traditional wait times.
+                                </p>
+                            </div>
+                        </div>
+
+                        <button onclick="requestDetails()" class="btn-apply">
+                            Apply Blueprint To My Stack
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -2000,9 +2004,9 @@
                 const modal = document.getElementById('contact-modal');
                 if (modal) {
                     if (show) {
-                        modal.classList.add('active');
+                        modal.classList.remove('hidden');
                     } else {
-                        modal.classList.remove('active');
+                        modal.classList.add('hidden');
                     }
                 }
             };
