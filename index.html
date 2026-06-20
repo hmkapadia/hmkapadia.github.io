@@ -44,6 +44,10 @@
             background: radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.12) 0%, rgba(9, 13, 22, 0) 70%), #0b0f19;
         }
 
+        .vibe-glow {
+            background: radial-gradient(circle at top right, rgba(168, 85, 247, 0.12) 0%, rgba(9, 13, 22, 0) 50%);
+        }
+
         /* --- LAYOUT UTILITIES --- */
         .container {
             width: 100%;
@@ -753,8 +757,8 @@
             font-style: italic;
         }
         .timeline-desc {
-            color: #9ca3af;
-            font-size: 0.875rem;
+            color: #d1d5db;
+            font-size: 0.95rem;
             line-height: 1.6;
             margin-bottom: 1rem;
         }
@@ -762,6 +766,33 @@
             display: flex;
             flex-wrap: wrap;
             gap: 0.35rem;
+        }
+        
+        /* Timeline Bullets Expanded Styling */
+        .timeline-bullets {
+            list-style: none;
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+            padding-left: 0.25rem;
+        }
+        .timeline-bullet {
+            position: relative;
+            padding-left: 1.5rem;
+            font-size: 0.875rem;
+            color: #9ca3af;
+            margin-bottom: 0.75rem;
+            line-height: 1.5;
+        }
+        .timeline-bullet strong {
+            color: #e5e7eb;
+        }
+        .timeline-bullet::before {
+            content: "→";
+            color: var(--primary);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            top: 0;
         }
 
         /* --- CERTIFICATE BLOCKS --- */
@@ -1529,7 +1560,26 @@
                         <span class="timeline-date">05/2012 - Present</span>
                     </div>
                     <div class="timeline-org">Altera Digital Health (Formerly Allscripts) | <span>US Healthcare Ecosystem</span></div>
-                    <p class="timeline-desc">Governing clinical-grade portfolios and tech operations within premium US hospital infrastructures. Spearheading teams under robust SLA/KPI agreements.</p>
+                    <p class="timeline-desc">Directed end-to-end technical project delivery, managed technical support lifecycles, and governed complex clinical data portfolios within US Healthcare systems.</p>
+                    
+                    <ul class="timeline-bullets">
+                        <li class="timeline-bullet">
+                            <strong>Agile Project &amp; Delivery Management:</strong> Led concurrent high-impact healthcare engineering projects, managing sprint planning, backlog grooming, resource allocation, and maintaining 100% SLA/KPI compliance.
+                        </li>
+                        <li class="timeline-bullet">
+                            <strong>Client Solution Design &amp; Architecture:</strong> Partnered with clients to design bespoke solutions; leveraged Business Analyst and Architect roles to provide a comprehensive view of complex projects from data and integration perspectives.
+                        </li>
+                        <li class="timeline-bullet">
+                            <strong>Innovative AI/ML &amp; Tech Leadership:</strong> Championed SQL Server Machine Learning Services (Python) and Generative AI initiatives; systematically mentored and upskilled a cross-functional department of developers and data scientists.
+                        </li>
+                        <li class="timeline-bullet">
+                            <strong>Scope &amp; Account Management:</strong> Partnered directly with healthcare executives to define strategic product roadmaps, formulate detailed SOWs, and engineer technical project proposals that catalyzed continuous business growth.
+                        </li>
+                        <li class="timeline-bullet">
+                            <strong>Process &amp; DevOps Transformation:</strong> Steered the strategic transition to SAFe DevOps, Agile, and ITIL frameworks across distributed global teams, increasing software delivery predictability, deployment velocity, and overall quality by 30%.
+                        </li>
+                    </ul>
+
                     <div class="timeline-tags">
                         <span class="card-tag">SLA/KPI Governance</span>
                         <span class="card-tag">SAFe 6 DevOps</span>
@@ -1546,7 +1596,20 @@
                         <span class="timeline-date" style="background-color: rgba(255,255,255,0.05); color: #d1d5db; border-color: rgba(255,255,255,0.1)">09/2007 - 05/2012</span>
                     </div>
                     <div class="timeline-org">SolidX AB (Sweden &amp; India) | <span style="color: var(--accent)">Security &amp; Authentication</span></div>
-                    <p class="timeline-desc">Delivered architecture solutions onsite in Sweden while executing offshore developer activities dynamically from Indian technical squads.</p>
+                    <p class="timeline-desc">Acted as a technical project manager and advisor, managing solution design and end-to-end delivery for major European security and software clients, including Ubiqo Security AB and SecureOffice AB.</p>
+                    
+                    <ul class="timeline-bullets">
+                        <li class="timeline-bullet">
+                            <strong>Onsite/Offshore Hybrid Model:</strong> Directed cross-border delivery under a hybrid model; collaborated onsite in Sweden to align product roadmaps with European stakeholders while leading and managing cross-functional technical teams offshore in India.
+                        </li>
+                        <li class="timeline-bullet">
+                            <strong>Multi-Disciplinary Project Orchestration:</strong> Orchestrated concurrent project lifecycles, defining comprehensive technical scopes and work breakdown structures (WBS) to ensure the timely delivery of complex web, mobile, and LAMP architectures.
+                        </li>
+                        <li class="timeline-bullet">
+                            <strong>Pre-Sales Strategy:</strong> Partnered with sales teams in pre-sales cycles, delivering persuasive product demonstrations, technical validation, and scoping architectures to close high-value accounts.
+                        </li>
+                    </ul>
+
                     <div class="timeline-tags">
                         <span class="card-tag">Sweden Onsite/Offshore Model</span>
                         <span class="card-tag">LAMP Architecture</span>
@@ -1562,7 +1625,17 @@
                         <span class="timeline-date" style="background-color: rgba(255,255,255,0.05); color: #d1d5db; border-color: rgba(255,255,255,0.1)">11/2006 - 09/2007</span>
                     </div>
                     <div class="timeline-org">Orion Software Service | <span style="color: var(--vibe)">Logistics</span></div>
-                    <p class="timeline-desc">Standardized core .NET pipelines and configured offshore development sprint pathways for enterprise-scale logistics models.</p>
+                    <p class="timeline-desc">Managed offshore software development and technical project operations for a scale-up Canadian logistics enterprise platform.</p>
+                    
+                    <ul class="timeline-bullets">
+                        <li class="timeline-bullet">
+                            <strong>Agile Technical Foundations:</strong> Provided accurate sprint estimations, risk assessments, and technical architecture baselines using Agile methodologies to accelerate time-to-market.
+                        </li>
+                        <li class="timeline-bullet">
+                            <strong>Quality Engineering &amp; Standardization:</strong> Standardized code quality pipelines and workflow configurations across the development team.
+                        </li>
+                    </ul>
+
                     <div class="timeline-tags">
                         <span class="card-tag">Canadian Logistics Platforms</span>
                         <span class="card-tag">Agile Sprint Estimates</span>
@@ -1577,7 +1650,17 @@
                         <span class="timeline-date" style="background-color: rgba(255,255,255,0.05); color: #d1d5db; border-color: rgba(255,255,255,0.1)">05/2005 - 11/2006</span>
                     </div>
                     <div class="timeline-org">Fanestra Healthcare Services | <span style="color: var(--yellow)">Financial &amp; Medical Billing</span></div>
-                    <p class="timeline-desc">Programmed compliant medical translation pipelines, standardizing medical billing formats (ANSI X12/NSF) to support smooth insurance payouts.</p>
+                    <p class="timeline-desc">Designed workflows and integrations for high-volume US medical insurance networks.</p>
+                    
+                    <ul class="timeline-bullets">
+                        <li class="timeline-bullet">
+                            <strong>Billing &amp; Workflow Management:</strong> Engineered high-performance Workflow Management Systems handling Medical Claims, medical transcriptions, and claim generations compliant with ANSI X12 and NSF formats.
+                        </li>
+                        <li class="timeline-bullet">
+                            <strong>Cross-Functional Regulatory Alignment:</strong> Maintained cross-functional coordination with billing specialists to adapt software to shifting regulatory frameworks.
+                        </li>
+                    </ul>
+
                     <div class="timeline-tags">
                         <span class="card-tag">Medical Claims Automation</span>
                         <span class="card-tag">ANSI X12 Compliance</span>
@@ -1598,7 +1681,7 @@
 
             <div class="grid lg-grid-3">
                 <!-- Cert Block 1 -->
-                <div class="cert-card">
+                <div class="bg-[#0f1524] p-8 rounded-3xl border border-gray-800 flex flex-col justify-between">
                     <div>
                         <div class="text-purple-500" style="font-size: 2rem; margin-bottom: 1rem; display: flex; align-items: center;">
                             <!-- Tree Diagram Node SVG -->
@@ -1682,13 +1765,13 @@
                         <ul class="cert-list" style="border: none; padding-top: 0; margin-bottom: 1.5rem">
                             <li class="cert-list-item" style="margin-bottom: 0.5rem">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="var(--primary)" width="14" height="14">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1a3.75 3.75 0 0012 18z" />
                                 </svg>
                                 Azure AI Fundamentals (AI-900)
                             </li>
                             <li class="cert-list-item" style="margin-bottom: 0">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="var(--primary)" width="14" height="14">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1a3.75 3.75 0 0012 18z" />
                                 </svg>
                                 Data Scientist Master's (ML &amp; AI)
                             </li>
